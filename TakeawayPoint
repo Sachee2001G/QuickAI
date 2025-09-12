@@ -1,0 +1,2 @@
+1.Run npm install -g npm@11.4.2 
+->If You're working on a team or with a CI/CD pipeline where version consistency matters.

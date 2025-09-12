@@ -1,0 +1,34 @@
+/* @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); */
+
+/* Global Styles */
+/* *{
+    font-family: "Outfit", sans-serif
+}
+ @theme{
+    --color-primary: #5044E5;
+ } */
+
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Define layers before using rules */
+@layer utilities;
+
+/* Global Styles */
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+/* Custom theme (this block might not be valid unless you're using a plugin or custom processor) */
+/* Consider moving this into tailwind.config.js instead */
+:root {
+  --color-primary: #5044E5;
+}
+
+
+
+
+
+
