@@ -1,11 +1,11 @@
-import logo from "./logo.png";
-import icon from "./icon.svg";
-import gradientBackground from "./gradient-background.jpg";
-import user_group from "./user-group.png";
-import star_icon from "./star-icon.svg";
-import star_dull_icon from "./star-dull-icon.svg";
-import profile_img_1 from "./profile-img-1.png";
-import arrow_icon from "./arrow-icon.svg";
+import logo from "./logo.svg";
+import gradientBackground from "./gradientBackground.png";
+import user_group from "./user_group.png";
+import star_icon from "./star_icon.svg";
+import star_dull_icon from "./star_dull_icon.svg";
+import profile_img_1 from "./profile_img_1.png";
+import arrow_icon from "./arrow_icon.svg";
+import favicon from "./favicon.svg";
 import {
   SquarePen,
   Hash,
@@ -17,14 +17,14 @@ import {
   FileVideo,
   FileArchive,
 } from "lucide-react";
-import ai_gen_img_1 from "./ai-gen-img-1.png";
-import ai_gen_img_2 from "./ai-gen-img-2.png";
-import ai_gen_img_3 from "./ai-gen-img-3.png";
+import ai_gen_img_1 from "./ai_gen_img_1.png";
+import ai_gen_img_2 from "./ai_gen_img_2.png";
+import ai_gen_img_3 from "./ai_gen_img_3.png";
 
 export const assets = {
   logo,
-  icon,
   gradientBackground,
+  favicon,
   user_group,
   star_icon,
   star_dull_icon,

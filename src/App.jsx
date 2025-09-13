@@ -27,16 +27,16 @@
 // export default App
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Home from './assets/pages/Home.jsx'
-import BlogTitles from './assets/pages/BlogTitles.jsx'
-import Layout from './assets/pages/Layout'
-import Dashboard from './assets/pages/Dashboard'
-import WriteArticle from './assets/pages/WriteArticle'
-import GenerateImages from './assets/pages/GenerateImages'
-import RemoveBackground from './assets/pages/RemoveBackground'
-import RemoveObject from './assets/pages/RemoveObject'
-import ReviewResume from './assets/pages/ReviewResume'
-import Community from './assets/pages/Community.jsx'
+import Home from './pages/Home.jsx'
+import BlogTitles from './pages/BlogTitles.jsx'
+import Layout from './pages/Layout'
+import Dashboard from './pages/Dashboard'
+import WriteArticle from './pages/WriteArticle'
+import GenerateImages from './pages/GenerateImages'
+import RemoveBackground from './pages/RemoveBackground'
+import RemoveObject from './pages/RemoveObject'
+import ReviewResume from './pages/ReviewResume'
+import Community from './pages/Community.jsx'
 
 const App = () => {
   return (
